@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SaaS Pricing Plans</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Choose Your Plan</h1>
+        <p>Simple pricing for everyone</p>
+
+        <div class="toggle-container">
+            <span>Monthly</span>
+
+            <label class="switch">
+                <input type="checkbox" id="billingToggle">
+                <span class="slider"></span>
+            </label>
+
+            <span>Yearly</span>
+        </div>
+    </header>
+
+
+    <main class="pricing-container">
+
+        <!-- Basic Plan -->
+        <div class="pricing-card">
+
+            <h2>Basic</h2>
+
+            <p class="description">
+                Perfect for individuals getting started.
+            </p>
+
+            <div class="price">
+                <span class="currency">₹</span>
+                <span class="amount" data-monthly="299" data-yearly="2990">
+                    299
+                </span>
+                <span class="period">/month</span>
+            </div>
+
+            <ul>
+                <li>✓ 5 Projects</li>
+                <li>✓ Basic Analytics</li>
+                <li>✓ Email Support</li>
+                <li>✓ 5 GB Storage</li>
+            </ul>
+
+            <button>Get Started</button>
+
+        </div>
+
+
+        <!-- Pro Plan -->
+        <div class="pricing-card popular">
+
+            <div class="badge">POPULAR</div>
+
+            <h2>Pro</h2>
+
+            <p class="description">
+                Best for growing teams and businesses.
+            </p>
+
+            <div class="price">
+                <span class="currency">₹</span>
+                <span class="amount" data-monthly="599" data-yearly="5990">
+                    599
+                </span>
+                <span class="period">/month</span>
+            </div>
+
+            <ul>
+                <li>✓ 20 Projects</li>
+                <li>✓ Advanced Analytics</li>
+                <li>✓ Priority Support</li>
+                <li>✓ 50 GB Storage</li>
+            </ul>
+
+            <button>Get Started</button>
+
+        </div>
+
+
+        <!-- Enterprise Plan -->
+        <div class="pricing-card best-value">
+
+            <div class="badge">BEST VALUE</div>
+
+            <h2>Enterprise</h2>
+
+            <p class="description">
+                Powerful tools for large organizations.
+            </p>
+
+            <div class="price">
+                <span class="currency">₹</span>
+                <span class="amount" data-monthly="999" data-yearly="9990">
+                    999
+                </span>
+                <span class="period">/month</span>
+            </div>
+
+            <ul>
+                <li>✓ Unlimited Projects</li>
+                <li>✓ Premium Analytics</li>
+                <li>✓ 24/7 Support</li>
+                <li>✓ 200 GB Storage</li>
+            </ul>
+
+            <button>Get Started</button>
+
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
